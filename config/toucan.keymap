@@ -4,6 +4,11 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#include "../miryoku/custom_config.h"
+#include "../miryoku/mapping/42/toucan.h"
+#include "../miryoku/miryoku.dtsi"
+
+/*
 #define BASE 0
 #define NAV  1
 #define SYM  2
@@ -80,3 +85,5 @@
         };
     };
 };
+
+*/
