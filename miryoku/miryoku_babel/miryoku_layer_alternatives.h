@@ -11,14 +11,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LC(1) &to U_EXTRA>
+                = <&macro_tap &kp LC(N1) &to U_EXTRA>
                 ;
         };
 		eng: eng {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp LC(2) &to U_BASE>
+                = <&macro_tap &kp LC(N2) &to U_BASE>
                 ;
         };
     };
