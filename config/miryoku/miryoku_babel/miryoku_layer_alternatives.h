@@ -5,24 +5,8 @@
 
 #pragma once
 
-/ {
-    macros {
-        heb: heb {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LC(N1) &to U_EXTRA>
-                ;
-        };
-		eng: eng {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LC(N2) &to U_BASE>
-                ;
-        };
-    };
-};
+
+
 
 
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY_FLIP \
