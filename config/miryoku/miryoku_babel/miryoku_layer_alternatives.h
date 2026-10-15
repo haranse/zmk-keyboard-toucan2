@@ -124,8 +124,8 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              &eng
 
 #define MIRYOKU_ALTERNATIVES_BASE_HEB \
-&kp HE_HEBREW_KAF,   &kp W,          &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
+&kp HE_HEBREW_KAF,             &kp HE_HEBREW_BET,             &kp HE_HEBREW_FINAL_PE,             &kp HE_HEBREW_PE,             &kp HE_HEBREW_TET,             &kp HE_HEBREW_FINAL_MEM,             &kp HE_HEBREW_LAMED,             &kp HE_HEBREW_AYIN,             &kp HE_HEBREW_FINAL_NUN,             &kp SQT,             \
+U_MT(LGUI, HE_HEBREW_ALEF),     U_MT(LALT, HE_HEBREW_RESH),     U_MT(LCTRL, HE_HEBREW_SHIN),    U_MT(LSHFT, HE_HEBREW_TAV),    &kp HE_HEBREW_GIMEL,             &kp HE_HEBREW_MEM,             U_MT(LSHFT, HE_HEBREW_NUN),    U_MT(LCTRL, HE_HEBREW_HE),    U_MT(LALT,HE_HEBREW_YOD),     U_MT(LGUI, HE_HEBREW_VAV),   \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              &eng
 /*
